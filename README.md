@@ -4,7 +4,7 @@ Pipeline CPU with Systolic array based on RISC-V architecture.
 ### The project is a copy of our work in the following organization ###
 https://github.com/Convergent-Capstone-Design-team1
 
-RISC-V 5stage pipeline CPU including branch prediction
+# RISC-V 5stage pipeline CPU including branch prediction
 
 We've used iverilog to compile- and simulated on gtkwave. 
 
@@ -21,5 +21,7 @@ iverilog -s tb_combined -o test PC.v PC_mux.v BHT.v BTB.v Predictor.v Inst_mem.v
 after you compile, you can use these codes to simulate this modules :
 vvp ./test
 gtkwave test.vcd
+
+or, you can just open the gtkw file we've made to check the operation.
 
 ### Project ended on June 2023. ###
