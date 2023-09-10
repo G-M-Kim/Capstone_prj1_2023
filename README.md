@@ -1,10 +1,17 @@
 # Capstone_prj1_2023
 Pipeline CPU with Systolic array based on RISC-V architecture.
 
+# this project includes...
+- 5-stage Pipeline structure
+- Dynamic branch prediction using 2bit counter
+- Systolic array for matrix operation acceleration
+- test examples (bubble sort, successive matrix multiplication) in Inst_mem
+- Simulation result pictures (systolic array, matrix mult, bubble sorting)
+
 ### The project is a copy of our work in the following organization ###
 https://github.com/Convergent-Capstone-Design-team1
 
-# RISC-V 5stage pipeline CPU including branch prediction
+-----------------------------------------------------------------------------------------------------
 
 We've used iverilog to compile- and simulated on gtkwave. 
 
